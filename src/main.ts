@@ -1,5 +1,3 @@
-import { DummyComponent} from '@/components'
+import { DummyComponent } from '@/components'
 
-export {
-  DummyComponent
-}
+export { DummyComponent }

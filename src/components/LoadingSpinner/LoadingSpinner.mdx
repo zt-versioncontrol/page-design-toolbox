@@ -1,0 +1,24 @@
+import { Meta, ArgTypes } from '@storybook/blocks'
+import LoadingSpinner from '@/components/LoadingSpinner/LoadingSpinner.vue'
+import * as Stories from './LoadingSpinner.stories.ts'
+import {
+  ComponentSummary,
+  CustomTypes,
+  ComponentDependency,
+  Examples,
+  ExampleGroup
+} from '/.storybook/documents/DocBlocks'
+
+<Meta title="LoadingSpinner Document" of={Stories} component={LoadingSpinner} />
+
+<ComponentSummary of={Stories} />
+
+<ArgTypes of={Stories} />
+
+<Examples>
+  <ExampleGroup title="Default Loading Spinner" stories={[Stories.DefaultSpinner]} />
+  <ExampleGroup
+    title="Style Variants"
+    stories={[Stories.StyleVariant1, Stories.StyleVariant2, Stories.StyleVariant3]}
+  />
+</Examples>

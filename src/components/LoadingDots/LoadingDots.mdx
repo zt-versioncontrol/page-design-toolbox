@@ -1,0 +1,16 @@
+import { Meta, ArgTypes } from '@storybook/blocks'
+import LoadingDots from '@/components/LoadingDots/LoadingDots.vue'
+import * as Stories from './LoadingDots.stories.ts'
+import { ComponentSummary, Examples, ExampleGroup } from '/.storybook/documents/DocBlocks'
+
+<Meta title="Loading Dots Document" of={Stories} component={LoadingDots} />
+
+<ComponentSummary of={Stories} />
+
+<ArgTypes of={Stories} />
+
+<Examples>
+  <ExampleGroup stories={[Stories.Default]} title={'Default size'} />
+  <ExampleGroup stories={[Stories.Small, Stories.Large]} title={'CustomSize'} />
+  <ExampleGroup title={'Colored Dots'} stories={[Stories.GreenDots, Stories.RedDots]} />
+</Examples>
