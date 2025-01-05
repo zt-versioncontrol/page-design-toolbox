@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Default component > should match snapshot 1`] = `
+<div
+  class="spinner"
+  data-v-bbf2ec71=""
+/>
+`;

@@ -1,6 +1,6 @@
 {
   "name": "@zt-versioncontrol/page-design-toolbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "files": [
@@ -26,7 +26,8 @@
     "generate": "node ./.component-generator/ComponentGenerator.cjs",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "storybook:build": "storybook build -o storybook-static/",
-    "test": "vitest --run"
+    "test": "vitest --run",
+    "prepare": "husky install"
   },
   "dependencies": {
     "husky": "^9.1.7",

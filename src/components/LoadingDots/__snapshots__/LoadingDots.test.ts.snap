@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Default component > Match Snapshot 1`] = `
+<div
+  class="dots-container"
+  data-v-cb975c38=""
+>
+  <div
+    class="loading-dot dot-first"
+    data-test="first-dot"
+    data-v-cb975c38=""
+  />
+  <div
+    class="loading-dot dot-second"
+    data-test="second-dot"
+    data-v-cb975c38=""
+  />
+  <div
+    class="loading-dot dot-third"
+    data-test="third-dot"
+    data-v-cb975c38=""
+  />
+</div>
+`;
