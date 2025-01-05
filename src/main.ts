@@ -1,3 +1,9 @@
-import { DummyComponent } from '@/components'
+import {
+  LoadingDots,
+  LoadingSpinner
+} from '@/components'
 
-export { DummyComponent }
+export {
+  LoadingDots,
+  LoadingSpinner
+}
