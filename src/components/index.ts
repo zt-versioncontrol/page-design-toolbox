@@ -1,3 +1,7 @@
-import DummyComponent from '@/components/DummyComponent/DummyComponent.vue'
+import LoadingDots from '@/components/LoadingDots/LoadingDots.vue'
+import LoadingSpinner from '@/components/LoadingSpinner/LoadingSpinner.vue'
 
-export { DummyComponent }
+export {
+  LoadingDots,
+  LoadingSpinner
+}
